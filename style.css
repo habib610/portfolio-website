@@ -1,0 +1,97 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+h1{
+    font-size: 50px;
+    color: #ec4c7a;
+    margin: 0px 0 30px 0px;
+}
+h2{
+    font-size: 40px;
+}
+.header{
+    background-image: url(./images/header-bg.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 600px;
+    width: 100%;
+    padding:7% 5% ;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+}
+img{
+    width: 100%;
+}
+.biography{
+    background-image: url(./images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.content{
+    padding: 150px 0px 0px 80px;
+}
+#margin-bottom{
+    margin-bottom: 0px;
+}
+p{
+    margin-bottom: 30px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg,#ec5195, #ec4c7a);
+    border-radius: 5px;
+    font-weight: 500;
+}
+.link-button:hover{
+    background-image: linear-gradient(45deg,#f49f31, #fbcf33);
+}
+.work{
+    width: 28%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 5%;
+    box-shadow: 10px 10px 10px lightgray;
+}
+.latest-work{
+    background-image: url(./images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 500px;
+}
+.client-comments{
+    background-image: url(./images/footer-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 500px;
+}
+.comments-container{
+    width: 500px;
+    margin: 0 28%;
+    text-align: center;
+}
+h5{
+    font-size: 14px;
+    color: gray;
+}
+#brief{
+    padding-bottom: 40px;
+}
+#contact{
+    color: white;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg,#ec5195, #ec4c7a);
+    border-radius: 10px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+}
